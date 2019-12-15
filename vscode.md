@@ -13,3 +13,4 @@
 * ESlint
 * Prettier - Code formatter
 * Path Intellisense
+* dotenv
