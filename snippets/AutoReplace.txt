@@ -1,0 +1,16 @@
+m7=begin td_master.top_cfg_session('TOPSAUDE12', 'TS_000007'); end;
+m9=begin td_master.top_cfg_session('TOPSAUDE12', 'TS_000009'); end;
+
+fn=Program units\Package body.tpl
+gbh=C:\Users\danielson.tavares\Documents\snippets\groupByHaving.tpl
+le=C:\Users\danielson.tavares\Documents\snippets\logExecucao.tpl
+toda=C:\Users\danielson.tavares\Documents\snippets\toDate.tpl
+toda24=C:\Users\danielson.tavares\Documents\snippets\toDate24.tpl
+analisebeneficiario=C:\Users\danielson.tavares\Documents\snippets\analiseBeneficiario.tpl
+fil=C:\Users\danielson.tavares\Documents\snippets\forCur.tpl
+scrp=C:\Users\danielson.tavares\Documents\snippets\scriptSac.tpl
+ift=C:\Users\danielson.tavares\Documents\snippets\ift.tpl
+ifte=C:\Users\danielson.tavares\Documents\snippets\ifte.tpl
+findtable=C:\Users\danielson.tavares\Documents\snippets\findtable.tpl
+findobj=C:\Users\danielson.tavares\Documents\snippets\findobj.tpl
+findcontent=C:\Users\danielson.tavares\Documents\snippets\findcontent.tpl
