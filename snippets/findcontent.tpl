@@ -1,6 +1,6 @@
 /*
   Localizando objetos pelo conteudo.
-  os seguintes tipos de objetos ser„o
+  os seguintes tipos de objetos ser√£o
   considerados: FUNCTION, JAVA SOURCE, 
   LIBRARY, PACKAGE, PACKAGE BODY, PROCEDURE,
   TRIGGER, TYPE, TYPE BODY
@@ -10,4 +10,5 @@ FROM   DBA_SOURCE S
 WHERE  S.OWNER = USER
 AND    S.NAME LIKE UPPER('%&NOME_OBJETO%')
 AND    S.TEXT LIKE UPPER('%&PALAVRA_PROCURADA%')
+AND    S.TYPE LIKE UPPER('%&TIPO_OBJETO%')
 ORDER BY S.NAME, S.TYPE, S.LINE
